@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b37fc67c47f5bd448b103cb588fbb2c0, type: 3}
+  m_Name: BossWave
+  m_EditorClassIdentifier: 
+  cardIcon: {fileID: 6161133401282172501, guid: 90424a909f7e3ff44bb16979dba99eec, type: 3}
+  numEnemies: 1
+  waveShips: []
+  possibleShips:
+  - {fileID: 11400000, guid: dad1e833952f62b4b8d7477bf8db25e9, type: 2}
+  waveType: 4
+  waveRewards: []
+  sectorData: {fileID: 0}

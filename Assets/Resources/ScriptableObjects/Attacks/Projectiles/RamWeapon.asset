@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 850001052156cc2429adda0fdc4a3bc6, type: 3}
+  m_Name: RamWeapon
+  m_EditorClassIdentifier: 
+  lifeTime: 15
+  accel: 1.5
+  speed: 9
+  sprite: {fileID: 3937104855273203483, guid: b5fc00ef48c6c6e459ba2967647a8dbe, type: 3}
+  projectileBodyPrefab: {fileID: 1661184182245483415, guid: d4132cf8b4d8650499f56e457a295462, type: 3}
+  projectileType: 0
+  color: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
+  size: {x: 3, y: 3}

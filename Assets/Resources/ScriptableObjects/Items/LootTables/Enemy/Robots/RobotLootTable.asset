@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7502fc2ad18b8524cb8cf6cb3e96e060, type: 3}
+  m_Name: RobotLootTable
+  m_EditorClassIdentifier: 
+  nodes:
+  - dropChance: 10
+    item: {fileID: 11400000, guid: 30611b10696508047be6a2dac99260c0, type: 2}
+    card: {fileID: 0}
+    minDropNum: 1
+    maxDropNum: 1
+  - dropChance: 20
+    item: {fileID: 11400000, guid: dc60e40e5f9befd4ea863fd76c1596de, type: 2}
+    card: {fileID: 0}
+    minDropNum: 1
+    maxDropNum: 1
+  - dropChance: 75
+    item: {fileID: 11400000, guid: efbafdddec203d44fa3eb67b680b8176, type: 2}
+    card: {fileID: 0}
+    minDropNum: 2
+    maxDropNum: 10
+  - dropChance: 10
+    item: {fileID: 11400000, guid: d4fa7811222fa054786b60d2b0ad2860, type: 2}
+    card: {fileID: 0}
+    minDropNum: 1
+    maxDropNum: 1
+  - dropChance: 25
+    item: {fileID: 11400000, guid: e29f6b1a3a273b24781d0b961e259cae, type: 2}
+    card: {fileID: 0}
+    minDropNum: 1
+    maxDropNum: 1
+  - dropChance: 10
+    item: {fileID: 11400000, guid: 4bb240cb55a5d49488fe7192b5d7787d, type: 2}
+    card: {fileID: 0}
+    minDropNum: 1
+    maxDropNum: 1
+  - dropChance: 5
+    item: {fileID: 11400000, guid: ba243baa95e940c44aed9b7e5341f8c3, type: 2}
+    card: {fileID: 0}
+    minDropNum: 1
+    maxDropNum: 1
+  - dropChance: 25
+    item: {fileID: 11400000, guid: 23f84f58b8c13ac4ca456a602136b953, type: 2}
+    card: {fileID: 0}
+    minDropNum: 1
+    maxDropNum: 1
+  - dropChance: 15
+    item: {fileID: 11400000, guid: c1a522c4dac366441bb5e337d1fc8445, type: 2}
+    card: {fileID: 0}
+    minDropNum: 1
+    maxDropNum: 1
+  - dropChance: 10
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 3cf7b4a8b797a14408b185ef94e355ab, type: 2}
+    minDropNum: 1
+    maxDropNum: 1
+  - dropChance: 10
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 43e19bbd61585364dba46681fd981d84, type: 2}
+    minDropNum: 1
+    maxDropNum: 1
+  - dropChance: 10
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 7f9fe9c1f89657d4c85fbb869f2d0452, type: 2}
+    minDropNum: 1
+    maxDropNum: 1
+  - dropChance: 5
+    item: {fileID: 0}
+    card: {fileID: 11400000, guid: 1036e399cfdd0a545947cbfad1a66b7b, type: 2}
+    minDropNum: 1
+    maxDropNum: 1
+  - dropChance: 10
+    item: {fileID: 11400000, guid: 7a59a3bfc9f18c74e8db97d4fe9cc7e1, type: 2}
+    card: {fileID: 0}
+    minDropNum: 1
+    maxDropNum: 1
+  cardNodes: []
+  guaranteedDrops: []
+  guaranteedCards: []

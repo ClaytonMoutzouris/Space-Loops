@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3776f221d5f42d4d8eec7d80b23949b, type: 3}
+  m_Name: Engineer
+  m_EditorClassIdentifier: 
+  crewName: Eng
+  role: 0
+  color: {r: 0.7796294, g: 0, b: 0.9528302, a: 1}
+  statsBonuses:
+  - modType: 0
+    type: 2
+    bonusValue: 1
+  - modType: 0
+    type: 4
+    bonusValue: 1
+  - modType: 0
+    type: 5
+    bonusValue: 1
+  crew: {fileID: 0}

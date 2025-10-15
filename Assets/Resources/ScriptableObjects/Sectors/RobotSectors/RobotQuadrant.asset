@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c767a2ca8343b40a0ba6251e3924e9, type: 3}
+  m_Name: RobotQuadrant
+  m_EditorClassIdentifier: 
+  cardIcon: {fileID: -7606337665395115091, guid: d9ef4bcbfdccd8243aa280afed948e48, type: 3}
+  sectorName: Robot Quadrant
+  sectorType: 1
+  sectorLevel: 1
+  numberOfWaves: 4
+  waveDatas: []
+  bossWave: {fileID: 11400000, guid: 1036e399cfdd0a545947cbfad1a66b7b, type: 2}
+  shipColors:
+  - {r: 0.29521182, g: 0.39824712, b: 0.5849056, a: 1}
+  - {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 1}
+  - {r: 0.18569775, g: 0.2530967, b: 0.3679245, a: 1}
+  possibleWaveDatas:
+  - {fileID: 11400000, guid: 43e19bbd61585364dba46681fd981d84, type: 2}
+  - {fileID: 11400000, guid: 87c040026aab1954488efbe20c23c454, type: 2}
+  - {fileID: 11400000, guid: 48fe52f15f9a0e3449876e5b8ac3fccc, type: 2}
+  - {fileID: 11400000, guid: 01d303942d1a8884cae38b5c999590dc, type: 2}
+  - {fileID: 11400000, guid: f48e3b423d6125842821e28a4e493c58, type: 2}
+  possibleEvents: []

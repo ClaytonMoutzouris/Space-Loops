@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 850001052156cc2429adda0fdc4a3bc6, type: 3}
+  m_Name: CreepyBlob
+  m_EditorClassIdentifier: 
+  lifeTime: 10
+  accel: 1.5
+  speed: 5
+  sprite: {fileID: -8301269835601782975, guid: ec787a98e76ada141b707e6c23038686, type: 3}
+  projectileBodyPrefab: {fileID: 1661184182245483415, guid: d4132cf8b4d8650499f56e457a295462, type: 3}
+  projectileType: 0
+  color: {r: 0.85882354, g: 0.7218419, b: 0, a: 1}
+  size: {x: 1, y: 1}
+  numPierces: 0
+  numChain: 0
+  numSplit: 0

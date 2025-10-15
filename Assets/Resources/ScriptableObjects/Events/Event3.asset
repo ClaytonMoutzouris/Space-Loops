@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e01925f39b0244ba127b7a01bdf09d, type: 3}
+  m_Name: Event3
+  m_EditorClassIdentifier: 
+  titleText: Trading Post
+  descriptionText: 
+  image: {fileID: -6551902082025927505, guid: 90424a909f7e3ff44bb16979dba99eec, type: 3}
+  options:
+  - {fileID: 11400000, guid: ae898c00f930fb54fb5e30a4eb0ef831, type: 2}
+  - {fileID: 11400000, guid: e3c179ad42bcd87428d562da87ef80bc, type: 2}
+  - {fileID: 11400000, guid: c8e77365f0eedb34197b3890d9dc246f, type: 2}
+  - {fileID: 11400000, guid: 6f823cabd8ad60b4680df679b73c8e25, type: 2}

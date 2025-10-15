@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e01925f39b0244ba127b7a01bdf09d, type: 3}
+  m_Name: PeacefulTravel
+  m_EditorClassIdentifier: 
+  titleText: Peaceful Trip
+  descriptionText: 
+  image: {fileID: 2631283119480712706, guid: 90424a909f7e3ff44bb16979dba99eec, type: 3}
+  options:
+  - {fileID: 11400000, guid: fd6ea7a33e9b91d4abe5574c2607fd3a, type: 2}
+  - {fileID: 11400000, guid: 71225db10f2d99c46b6dbab3ad94808d, type: 2}
+  - {fileID: 11400000, guid: ef18e92dbb99eb14e89b7c72f18884a2, type: 2}
+  - {fileID: 11400000, guid: d5a7763a937f2764da96d32719f4369b, type: 2}

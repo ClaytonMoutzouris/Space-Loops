@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5719bf95960fe54a9fd13b2e91c7f77, type: 3}
+  m_Name: ChillingTouch
+  m_EditorClassIdentifier: 
+  abilityDescription: Slow on hit
+  abilityOwner: {fileID: 0}
+  onMoveEffects: []
+  OnWaveStartEffects: []
+  OnRoundStartEffects: []
+  onGetHitEffects: []
+  onHitShipEffects:
+  - ownerEffects: []
+    hitterEffects: []
+    hitEffects:
+    - {fileID: 11400000, guid: a2b0738b7e2f96c4fac2c7a88d65e36a, type: 2}
+  OnDestroyEnemyEffects: []
+  OnShipDestroyedEffects: []
+  OnShootEffects: []
+  OnEnemyShootEffects: []

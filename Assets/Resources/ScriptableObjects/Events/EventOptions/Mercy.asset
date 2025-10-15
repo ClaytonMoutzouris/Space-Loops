@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50158f0a6d3ee124d85f9faec0c84f2e, type: 3}
+  m_Name: Mercy
+  m_EditorClassIdentifier: 
+  title: Mercy
+  description: Gain a crew member
+  possibleCrewMembers:
+  - {fileID: 11400000, guid: c63e0493e7003f740bf8f04ef7893961, type: 2}
+  - {fileID: 11400000, guid: 86ddb5947da7597438bda6da6821e05b, type: 2}
+  - {fileID: 11400000, guid: 06e6b205b6a390e44a9319223bc5bbc2, type: 2}
+  possibleStatBonuses: []
+  damage: 0
+  healing: 0
+  possibleNewAttacks: []

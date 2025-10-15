@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50158f0a6d3ee124d85f9faec0c84f2e, type: 3}
+  m_Name: BuyGun
+  m_EditorClassIdentifier: 
+  title: Buy Gun
+  description: Buy an exotic gun
+  baseChanceToSucceed: 100
+  moneyCost: 20
+  statDebuffs: []
+  crewDie: 0
+  failDamage: 0
+  damage: 0
+  possibleCrewMembers: []
+  possibleStatBonuses: []
+  possibleRewards:
+  - {fileID: 11400000, guid: 972731a842567b2488ca19f8cd14d046, type: 2}
+  - {fileID: 11400000, guid: 427074178549c9443bd0f4232fee9c2b, type: 2}
+  - {fileID: 11400000, guid: ba243baa95e940c44aed9b7e5341f8c3, type: 2}
+  healing: 0
+  possibleNewAttacks: []

@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f27880b4c981e9e4b8ddf82e038288d6, type: 3}
+  m_Name: RapidBeam
+  m_EditorClassIdentifier: 
+  itemName: Rapid Beam
+  itemValue: 30
+  itemRarity: 4
+  itemIcon: {fileID: -2209729577135604883, guid: 118da6d77e83fb94891cc29102fc1a40, type: 3}
+  owner: {fileID: 0}
+  slotType: 0
+  statBonuses: []
+  possibleBonuses:
+  - modType: 0
+    type: 0
+    bonusValue: 1
+  - modType: 0
+    type: 1
+    bonusValue: 1
+  - modType: 0
+    type: 2
+    bonusValue: 1
+  - modType: 0
+    type: 3
+    bonusValue: 1
+  - modType: 0
+    type: 4
+    bonusValue: 1
+  - modType: 0
+    type: 5
+    bonusValue: 1
+  - modType: 0
+    type: 6
+    bonusValue: 1
+  - modType: 0
+    type: 7
+    bonusValue: 1
+  - modType: 0
+    type: 8
+    bonusValue: 1
+  - modType: 0
+    type: 9
+    bonusValue: 1
+  - modType: 0
+    type: 10
+    bonusValue: 5
+  - modType: 0
+    type: 11
+    bonusValue: 1
+  - modType: 0
+    type: 12
+    bonusValue: 1
+  - modType: 0
+    type: 13
+    bonusValue: 5
+  - modType: 0
+    type: 14
+    bonusValue: 1
+  - modType: 0
+    type: 18
+    bonusValue: 1
+  - modType: 0
+    type: 19
+    bonusValue: 1
+  - modType: 0
+    type: 21
+    bonusValue: 5
+  - modType: 0
+    type: 22
+    bonusValue: 0.1
+  - modType: 0
+    type: 23
+    bonusValue: 5
+  - modType: 0
+    type: 24
+    bonusValue: 5
+  - modType: 0
+    type: 25
+    bonusValue: 0.1
+  - modType: 0
+    type: 28
+    bonusValue: 5
+  - modType: 0
+    type: 29
+    bonusValue: 5
+  - modType: 0
+    type: 30
+    bonusValue: 1
+  - modType: 0
+    type: 31
+    bonusValue: 1
+  - modType: 0
+    type: 30
+    bonusValue: 1
+  - modType: 0
+    type: 38
+    bonusValue: 1
+  abilities: []
+  possibleAbilities: []
+  attackData: {fileID: 11400000, guid: 11165f61a2c59554b8f400c46dff9a25, type: 2}
+  minDamage: 0
+  maxDamage: 0
+  attackSpeed: 1
+  projectileSpeed: 1
+  projectileLifetime: 5
+  numberOfProjectiles: 1
+  spreadAngle: 45
+  projectileSize: 1

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874109a5dc3c28c4aa7e0c44218d157c, type: 3}
+  m_Name: EffectShipEffect
+  m_EditorClassIdentifier: 
+  effectOwner: {fileID: 0}
+  effectedEntity: {fileID: 0}
+  description: 
+  soundEffects: []
+  durationType: 0
+  duration: 0
+  effectColor: {r: 0, g: 0, b: 0, a: 0}
+  intensity: 0
+  visualEffectPrefab: {fileID: 0}
+  shipOwner: {fileID: 0}
+  shipEffected: {fileID: 0}
+  shipEffects: []

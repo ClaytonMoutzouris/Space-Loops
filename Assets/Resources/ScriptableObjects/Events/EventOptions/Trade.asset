@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50158f0a6d3ee124d85f9faec0c84f2e, type: 3}
+  m_Name: Trade
+  m_EditorClassIdentifier: 
+  title: Trade
+  description: Trade attack for new one
+  baseChanceToSucceed: 100
+  moneyCost: 0
+  statDebuffs: []
+  crewDie: 0
+  failDamage: 0
+  damage: 0
+  possibleCrewMembers: []
+  possibleStatBonuses: []
+  possibleRewards:
+  - {fileID: 11400000, guid: 22e19516c3bc553459d9d80dcc4ad529, type: 2}
+  healing: 0
+  possibleNewAttacks: []

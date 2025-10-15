@@ -1,0 +1,375 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43937320641df5d44b7bb5a57181277b, type: 3}
+  m_Name: PlayerShip
+  m_EditorClassIdentifier: 
+  maxHealth: 50
+  shipSize: {x: 1, y: 1}
+  shipName: PShip
+  defaultWeapon: {fileID: 11400000, guid: 972731a842567b2488ca19f8cd14d046, type: 2}
+  attack: {fileID: 0}
+  attack2: {fileID: 0}
+  currentHeath: 0
+  currentShields: 0
+  hosility: 0
+  shipPrefab: {fileID: 3505731657789146681, guid: 23ea3401bb116704eb4b419e2aca3e82, type: 3}
+  possibleSprites:
+  - {fileID: 3937104855273203483, guid: b5fc00ef48c6c6e459ba2967647a8dbe, type: 3}
+  possibleColors:
+  - {r: 0.5377358, g: 0.28662333, b: 0.28662333, a: 1}
+  - {r: 0.29681382, g: 0.40873775, b: 0.5471698, a: 1}
+  - {r: 0.39281088, g: 0.5660378, b: 0.33908868, a: 1}
+  - {r: 0.58376956, g: 0.5849056, b: 0.29521182, a: 1}
+  - {r: 0.5283019, g: 0.29654682, b: 0.51557803, a: 1}
+  - {r: 0.5188679, g: 0.38145334, b: 0.2667764, a: 1}
+  - {r: 0.258989, g: 0.5660378, b: 0.43960595, a: 1}
+  - {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
+  amplitude: 2
+  startingCrew:
+  - {fileID: 11400000, guid: 5947ad94527b98c4189522c763b3408a, type: 2}
+  - {fileID: 11400000, guid: 06e6b205b6a390e44a9319223bc5bbc2, type: 2}
+  currency: 0
+  baseAbilities:
+  - {fileID: 11400000, guid: 31098552e8c10ea419d9bc72338249d2, type: 2}
+  startingStats:
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  - statDependancies: []
+    type: 0
+    baseValue: 0
+    bonuses: []
+  baseStats:
+    basePower:
+      statDependancies: []
+      type: 0
+      baseValue: 5
+      bonuses: []
+    baseArmor:
+      statDependancies: []
+      type: 1
+      baseValue: 5
+      bonuses: []
+    baseHull:
+      statDependancies: []
+      type: 2
+      baseValue: 5
+      bonuses: []
+    baseSpeed:
+      statDependancies: []
+      type: 3
+      baseValue: 5
+      bonuses: []
+    baseShields:
+      statDependancies: []
+      type: 4
+      baseValue: 5
+      bonuses: []
+    baseSensors:
+      statDependancies: []
+      type: 5
+      baseValue: 5
+      bonuses: []
+    baseLuck:
+      statDependancies: []
+      type: 6
+      baseValue: 5
+      bonuses: []
+    baseCharisma:
+      statDependancies: []
+      type: 7
+      baseValue: 5
+      bonuses: []
+    baseDamageBonus:
+      statDependancies:
+      - type: 0
+        dependencyType: 0
+        valuePerStat: 5
+      type: 8
+      baseValue: 0
+      bonuses: []
+    baseCritChanceBonus:
+      statDependancies:
+      - type: 6
+        dependencyType: 0
+        valuePerStat: 1
+      - type: 5
+        dependencyType: 0
+        valuePerStat: 1
+      type: 9
+      baseValue: 5
+      bonuses: []
+    baseCritDamageBonus:
+      statDependancies:
+      - type: 0
+        dependencyType: 0
+        valuePerStat: 5
+      type: 10
+      baseValue: 50
+      bonuses: []
+    baseAttackSpeedBonus:
+      statDependancies:
+      - type: 3
+        dependencyType: 0
+        valuePerStat: 1
+      type: 11
+      baseValue: 0
+      bonuses: []
+    baseAccuracy:
+      statDependancies:
+      - type: 5
+        dependencyType: 0
+        valuePerStat: 1
+      type: 12
+      baseValue: 50
+      bonuses: []
+    baseProjectileSpeedBonus:
+      statDependancies: []
+      type: 13
+      baseValue: 0
+      bonuses: []
+    baseProjectilePierceNumberBonus:
+      statDependancies: []
+      type: 14
+      baseValue: 0
+      bonuses: []
+    baseProjectileChainNumberBonus:
+      statDependancies: []
+      type: 15
+      baseValue: 0
+      bonuses: []
+    baseMoveSpeed:
+      statDependancies:
+      - type: 3
+        dependencyType: 0
+        valuePerStat: 0.05
+      type: 16
+      baseValue: 1
+      bonuses: []
+    baseSize:
+      statDependancies: []
+      type: 17
+      baseValue: 1
+      bonuses: []
+    baseDamageReduction:
+      statDependancies:
+      - type: 1
+        dependencyType: 0
+        valuePerStat: 1
+      type: 18
+      baseValue: 0
+      bonuses: []
+    baseEvasion:
+      statDependancies:
+      - type: 6
+        dependencyType: 0
+        valuePerStat: 1
+      - type: 5
+        dependencyType: 0
+        valuePerStat: 1
+      type: 19
+      baseValue: 5
+      bonuses: []
+    baseStatusDurationReduction:
+      statDependancies: []
+      type: 20
+      baseValue: 0
+      bonuses: []
+    baseMaxHealth:
+      statDependancies:
+      - type: 2
+        dependencyType: 0
+        valuePerStat: 5
+      type: 21
+      baseValue: 25
+      bonuses: []
+    baseHealthRegen:
+      statDependancies:
+      - type: 2
+        dependencyType: 0
+        valuePerStat: 0.1
+      type: 22
+      baseValue: 0.5
+      bonuses: []
+    baseHealingBonus:
+      statDependancies: []
+      type: 23
+      baseValue: 0
+      bonuses: []
+    baseMaxShields:
+      statDependancies:
+      - type: 4
+        dependencyType: 0
+        valuePerStat: 1
+      type: 24
+      baseValue: 5
+      bonuses: []
+    baseShieldRegen:
+      statDependancies:
+      - type: 4
+        dependencyType: 0
+        valuePerStat: 0.1
+      type: 25
+      baseValue: 1
+      bonuses: []
+    baseShieldRegenTime:
+      statDependancies:
+      - type: 4
+        dependencyType: 0
+        valuePerStat: -0.01
+      type: 26
+      baseValue: 5
+      bonuses: []
+    baseStatusDurationBonus:
+      statDependancies: []
+      type: 27
+      baseValue: 0
+      bonuses: []
+    baseCurrencyBonus:
+      statDependancies:
+      - type: 7
+        dependencyType: 0
+        valuePerStat: 1
+      type: 28
+      baseValue: 0
+      bonuses: []
+    baseXPBonus:
+      statDependancies: []
+      type: 29
+      baseValue: 0
+      bonuses: []
+    baseCrewCapacity:
+      statDependancies:
+      - type: 7
+        dependencyType: 0
+        valuePerStat: 0.2
+      type: 30
+      baseValue: 2
+      bonuses: []
+    baseProjectileSplit:
+      statDependancies: []
+      type: 31
+      baseValue: 0
+      bonuses: []
+    baseLifeSteal:
+      statDependancies: []
+      type: 32
+      baseValue: 0
+      bonuses: []
+    baseIgnoreArmor:
+      statDependancies: []
+      type: 33
+      baseValue: 0
+      bonuses: []
+    baseIgnoreShields:
+      statDependancies: []
+      type: 34
+      baseValue: 0
+      bonuses: []
+    baseShieldDrain:
+      statDependancies: []
+      type: 35
+      baseValue: 0
+      bonuses: []
+    baseShieldBurn:
+      statDependancies: []
+      type: 36
+      baseValue: 0
+      bonuses: []
+    baseProjectileAcceleration:
+      statDependancies: []
+      type: 37
+      baseValue: 0
+      bonuses: []
+    baseAdditionalProjectiles:
+      statDependancies: []
+      type: 38
+      baseValue: 0
+      bonuses: []
+  lootTable: {fileID: 0}

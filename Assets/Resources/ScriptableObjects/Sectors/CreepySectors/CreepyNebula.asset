@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64c767a2ca8343b40a0ba6251e3924e9, type: 3}
+  m_Name: CreepyNebula
+  m_EditorClassIdentifier: 
+  cardIcon: {fileID: -8491358427964824408, guid: d9ef4bcbfdccd8243aa280afed948e48, type: 3}
+  sectorName: Creepy Nebula
+  sectorType: 2
+  sectorLevel: 1
+  numberOfWaves: 5
+  waveDatas: []
+  bossWave: {fileID: 11400000, guid: 6f93e2060482c07429f3af005c1f334c, type: 2}
+  shipColors:
+  - {r: 0.10075115, g: 0.3962264, b: 0.08410467, a: 1}
+  - {r: 0.8490566, g: 0, b: 0.5726753, a: 1}
+  - {r: 0.8509804, g: 0.69639957, b: 0, a: 1}
+  - {r: 0.012415428, g: 0.8773585, b: 0.6739986, a: 1}
+  - {r: 0.34692293, g: 0.08170167, b: 0.6415094, a: 1}
+  possibleWaveDatas:
+  - {fileID: 11400000, guid: 8d5af2fd5da9c904689e5047dc5d7b37, type: 2}
+  - {fileID: 11400000, guid: 4b1d0b77d7109c44380a3adf1e8046a2, type: 2}
+  - {fileID: 11400000, guid: bf6c3469fb450bb4a8cb2870695b4e11, type: 2}
+  - {fileID: 11400000, guid: 9521249df75e59643b7c7fb4b673d861, type: 2}
+  - {fileID: 11400000, guid: 945aa1ebe8661a347a61b74cc8f7321b, type: 2}
+  possibleEvents: []

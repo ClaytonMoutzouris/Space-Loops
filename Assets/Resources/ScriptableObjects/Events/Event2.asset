@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e01925f39b0244ba127b7a01bdf09d, type: 3}
+  m_Name: Event2
+  m_EditorClassIdentifier: 
+  titleText: Asteroid Field
+  descriptionText: 
+  image: {fileID: 3446155778254489396, guid: 90424a909f7e3ff44bb16979dba99eec, type: 3}
+  options:
+  - {fileID: 11400000, guid: 5bc25a7baa4a2be43bcc8b64139e5139, type: 2}
+  - {fileID: 11400000, guid: d1887a85d2d5e9148acef36c6a8180b7, type: 2}
+  - {fileID: 11400000, guid: 5a3ab8c9b2b61994f93f56b803985802, type: 2}
+  - {fileID: 11400000, guid: 19ff1aeebd114e5419906cc6190d8365, type: 2}
